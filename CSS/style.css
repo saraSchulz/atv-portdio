@@ -58,6 +58,9 @@ a{
     color: black; 
     text-decoration: none;
 }
+main{
+	margin: 0 15vw 0 15vw;
+}
 /*===========================================================
                          TOPO                              
 =============================================================*/
@@ -76,14 +79,94 @@ header nav ul li.atual a {
 	color: #ff6464;
 }
 /*===========================================================
-                         CONTEÚDO                           
+                         CONTEÚDO - WORKS                         
 =============================================================*/
-main{
-	margin: 0 15vw 0 15vw;
-}
-main h1{ 
+
+main.works h1{ 
  font-size: 1.7rem;
 }
-main h1 section h2{
-	
+main.works section{
+	border-bottom: 1px solid gray;
+	padding: 0 2vw 0 2vw;
 }
+main.works section:last-child{
+	border: none;
+}
+main.works section h2{
+	font-size: 1.2rem;
+	margin: 6vw 0 0 0 ;
+	font-weight: bold;
+}
+main.works section p{
+	margin: 2vw 0 0 0 ;
+}
+main.works section p span{
+	background-color: #ff6464;
+	border-radius: 20px;
+	color: #ffffff;
+	padding: 3px 5px 3px 5px;
+}
+/*===========================================================
+                         CONTEÚDO - HOME PAGE                       
+=============================================================*/
+
+main section.banner{
+	display: flex;
+	margin: 3vw 0 1vw 0;
+}
+section.banner h1{
+	font-weight: bold;
+	font-size: 2rem
+}
+section.banner p {
+	margin:1.5vw 4vw 1.5vw 0
+}
+section.banner button{
+	background-color: #ff6464;
+	color: white;
+	padding: 1vw 2vw 1vw 2vw;
+	border: 0;
+}
+section.rt-post{
+	background-color: #d5eafc;
+	padding: 1vw 2vw 1vw 2vw;
+}
+section.rt-post h2{ 
+	font-size: 1.7rem;
+	margin: 3vw 0 3vw 0;
+}
+section.rt-post ul{
+	display: flex;
+
+}
+section.rt-post ul li {
+	background-color: white;
+	margin: 0 1.4vw 0 0;
+}
+section.rt-post ul li h3{
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+section.rt-post ul li p {
+	margin: 1vw 1vw 1vw 1vw;
+}
+
+
+/*===========================================================
+                         FOOTER                         
+=============================================================*/
+footer{ 
+	text-align: center;
+	margin: 2vw 0 2vw 0 ;
+}
+footer ul{
+	display:flex;
+	justify-content: center;
+}
+footer ul li{ 
+	margin: 10px 10px 10px 10px;
+	font-size: 1.5rem;
+}
+
+
+
